@@ -10,7 +10,7 @@ function mandelbrotSet(realMin, realMax, imagMin, imagMax, width, height, maxNum
             c = z;
             NumOfTrys = 0
 
-            while abs(z) < 3 && NumOfTrys < maxNumOfTrys
+            while abs(z) < 2 && NumOfTrys < maxNumOfTrys
                 z = z^2 + c
                 NumOfTrys += 1
             end
